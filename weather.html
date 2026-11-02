@@ -157,8 +157,8 @@ html[data-season="winter"] .hero-foot .wrap{color:#5B2626}
 .climate-wrap{overflow-x:auto;margin-top:2.5rem}
 .sun{display:grid;grid-template-columns:repeat(12,minmax(44px,1fr));align-items:end;gap:.5rem;height:300px;min-width:620px;border-bottom:1px solid var(--ink);padding-top:1rem}
 .sun button{all:unset;cursor:pointer;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;position:relative}
-.sun .col{width:100%;background:linear-gradient(180deg,#E3C46F,var(--gold));border-radius:2px 2px 0 0;transition:filter .2s}
-.sun button:hover .col,.sun button[aria-pressed="true"] .col{filter:brightness(1.15) saturate(1.2)}
+.sun .col{width:100%;background:linear-gradient(180deg,#FBD5B4,#F4B183);border-radius:2px 2px 0 0;transition:filter .2s}
+.sun button:hover .col,.sun button[aria-pressed="true"] .col{background:linear-gradient(180deg,#F8C29A,#EE9F6A)}
 .sun .val{font-size:.82rem;color:var(--soft);margin-bottom:.35rem}
 .sun-labels{display:grid;grid-template-columns:repeat(12,minmax(44px,1fr));gap:.5rem;min-width:620px;font-size:.85rem;color:var(--soft);text-align:center;padding-top:.5rem}
 .sun-read{margin-top:1.5rem;min-height:3.2em;font-family:var(--serif);font-size:1.3rem}
@@ -396,16 +396,16 @@ h1,h2,h3{letter-spacing:.005em}
 .about-cols p{color:var(--soft);margin:0}
 .household{font-family:var(--serif);font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.25;max-width:30ch;margin:0}
 .sun{position:relative}
-.sun .tdot{position:absolute;left:50%;width:12px;height:12px;margin:0 0 -6px -6px;border-radius:50%;background:#B5523B;border:2px solid var(--bg);z-index:2}
-.sun .tdot i{position:absolute;top:14px;left:50%;transform:translateX(-50%);font:600 .78rem var(--sans);font-style:normal;color:#B5523B;white-space:nowrap}
+.sun .tdot{position:absolute;left:50%;width:12px;height:12px;margin:0 0 -6px -6px;border-radius:50%;background:#5B2626;border:2px solid var(--bg);z-index:2}
+.sun .tdot i{position:absolute;top:14px;left:50%;transform:translateX(-50%);font:600 .78rem var(--sans);font-style:normal;color:#5B2626;white-space:nowrap}
 .sun .tline{position:absolute;left:0;right:0;top:1rem;bottom:0;width:100%;height:calc(100% - 1rem);pointer-events:none;z-index:1}
-.sun .tline polyline{fill:none;stroke:#B5523B;stroke-width:2.5;vector-effect:non-scaling-stroke;stroke-linejoin:round}
-.sun .col{opacity:.85}
+.sun .tline polyline{fill:none;stroke:#5B2626;stroke-width:2.5;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.sun .col{opacity:1}
 .chart-key{display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.88rem;color:var(--soft);margin-top:.9rem}
 .chart-key span{display:inline-flex;align-items:center;gap:.45rem}
-.chart-key .k-sun{width:14px;height:14px;border-radius:2px;background:linear-gradient(180deg,#E3C46F,var(--gold))}
-.chart-key .k-temp{width:22px;height:3px;background:#B5523B;position:relative}
-.chart-key .k-temp:after{content:"";position:absolute;left:6px;top:-4px;width:10px;height:10px;border-radius:50%;background:#B5523B}
+.chart-key .k-sun{width:14px;height:14px;border-radius:2px;background:linear-gradient(180deg,#FBD5B4,#F4B183)}
+.chart-key .k-temp{width:22px;height:3px;background:#5B2626;position:relative}
+.chart-key .k-temp:after{content:"";position:absolute;left:6px;top:-4px;width:10px;height:10px;border-radius:50%;background:#5B2626}.uv-row{display:grid;grid-template-columns:repeat(12,minmax(44px,1fr));gap:.5rem;min-width:620px;padding-top:.55rem;justify-items:center}.uv{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:24px;padding:0 .4rem;border-radius:999px;font:600 .8rem/1 var(--sans)}.uv-low{background:#DCEBD2;color:#3D5A33}.uv-moderate{background:#FBEDB8;color:#6A5312}.uv-high{background:#FAD3B0;color:#7A4218}.uv-veryhigh{background:#F4BCAE;color:#7A2E22}.chart-key .k-uv{width:22px;height:14px;border-radius:999px;background:linear-gradient(90deg,#DCEBD2,#FBEDB8,#FAD3B0,#F4BCAE)}
 .mast{background:rgba(250,245,239,.95)!important;border-bottom-color:#E7DCD2!important}.drawer{background:#FAF5EF!important}.pagehead:not(.photo){background:#FAF5EF!important}
 @media (min-width:761px){.mast .wrap{height:124px}.mast nav{align-items:flex-start;padding-top:20px}.mast nav a{display:flex;flex-direction:column;align-items:center;gap:6px}.mast nav a:after{content:'';display:block;width:54px;height:40px;background:center/contain no-repeat;transition:transform .2s}.mast nav a:hover:after{transform:translateY(2px)}.pagehead{padding-top:calc(124px + env(safe-area-inset-top,0px) + clamp(2.5rem,7vw,4.5rem))!important}.hero .wrap{padding-top:calc(124px + env(safe-area-inset-top,0px) + clamp(3.5rem,12vh,8rem))!important}.mast nav a[href="where-is-andorra.html"]:after{background-image:url(the-andorra-edit-nav-desk-globe.webp)}.mast nav a[href="getting-to-andorra.html"]:after{background-image:url(the-andorra-edit-nav-pink-beach-umbrella.webp)}.mast nav a[href="things-to-do.html"]:after{background-image:url(the-andorra-edit-nav-easel.webp)}.mast nav a[href="skiing.html"]:after{background-image:url(the-andorra-edit-nav-ski-jumper-skis.webp)}.mast nav a[href="spas.html"]:after{background-image:url(the-andorra-edit-nav-candle-eucalyptus.webp)}.mast nav a[href="where-to-stay.html"]:after{background-image:url(the-andorra-edit-nav-armchair.webp)}.mast nav a[href="summer-hiking-horse-riding.html"]:after{background-image:url(the-andorra-edit-nav-deckchair.webp)}.mast nav a[href="weather.html"]:after{background-image:url(the-andorra-edit-nav-sun.webp)}.mast nav a[href="restaurants-and-food.html"]:after{background-image:url(the-andorra-edit-nav-wine-and-toast.webp)}.mast nav a[href="shopping.html"]:after{background-image:url(the-andorra-edit-nav-lilac-perfume-atomiser.webp)}.mast nav a[href="living-in-andorra.html"]:after{background-image:url(the-andorra-edit-nav-grocery-bag.webp)}}
 @media (min-width:761px){.mast nav a[href="blog.html"]{color:#5B2626!important;-webkit-text-stroke:.6px #5B2626;font-size:1.7rem!important}.mast nav a[href="blog.html"]:after{content:"Read now";width:auto;height:auto;background:#22292B;color:#FAF5EF;font:600 .68rem/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;-webkit-text-stroke:0;padding:.45rem .8rem;border-radius:999px;margin-top:4px}.mast nav a[href="blog.html"]:hover:after{background:var(--gold)}}
@@ -425,16 +425,16 @@ body{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-tou
   <div class="wrap">
     <div class="split">
       <div><h2>Sunshine and temperature</h2></div>
-      <div><p class="lede">Andorra la Vella averages around 2,165 hours of sunshine a year. July is the sunniest month, and even December averages about four hours a day.</p>
+      <div><p class="lede">Andorra la Vella averages around 2,165 hours of sunshine a year. July is the sunniest month, and even December averages about four hours a day. Most months have 20 to 25 days without rain or snow.</p>
       <p>Average temperatures in the capital range from about 4.4°C in January to 20.8°C in August. Tap a month to read it.</p></div>
     </div>
     <div class="climate-wrap">
-      <div class="sun" id="sun" role="group" aria-label="Average sunshine hours and temperature per month, Andorra la Vella"></div>
+      <div class="sun" id="sun" role="group" aria-label="Average dry days and temperature per month, Andorra la Vella"></div>
       <div class="sun-labels" aria-hidden="true"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span></div>
     </div>
-    <div class="chart-key" aria-hidden="true"><span><i class="k-sun"></i>Sunshine hours per month</span><span><i class="k-temp"></i>Average temperature, °C</span></div>
+    <div class="chart-key" aria-hidden="true"><span><i class="k-sun"></i>Dry days per month</span><span><i class="k-temp"></i>Average temperature, °C</span><span><i class="k-uv"></i>UV index, typical daily peak</span></div>
     <p class="sun-read" id="sun-read" aria-live="polite"></p>
-    <p class="note">Monthly sunshine totals and average temperatures for Andorra la Vella (Roc de Sant Pere station, 1,100 m), based on 2008–2020 averages compiled by <a href="https://www.climatestotravel.com/climate/andorra" target="_blank" rel="noopener">Climates to Travel</a>. For forecasts, use meteo.ad, Andorra's official weather service.</p>
+    <p class="note">Temperatures for Andorra la Vella (Roc de Sant Pere station, 1,100 m) are 2008–2020 averages, and dry days are the days in each month minus the average number of days with rain or snow, both from <a href="https://www.climatestotravel.com/climate/andorra" target="_blank" rel="noopener">Climates to Travel</a>. UV is the typical daily peak in each month, from <a href="https://www.weather2travel.com/andorra/andorra-la-vella/climate" target="_blank" rel="noopener">weather2travel</a>. For forecasts, use meteo.ad, Andorra's official weather service.</p>
   </div>
 </section>
 
@@ -444,7 +444,7 @@ body{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-tou
     <div><p class="lede">Conditions change sharply with height. Andorra la Vella sits at 1,023 m, the ski bases at around 1,700–2,100 m, and the summits close to 3,000 m. Snow can lie high on the mountains while the valley floor is green.</p></div></div>
     <div class="two">
       <div><h3>Snow</h3><p>In 2025–26 Ordino Arcalís recorded 8.64 m of snowfall, its second highest ever, and Grandvalira 716 cm, its fourth best in 35 years. Snowmaking covers at least 66% of the ski domain.</p></div>
-      <div><h3>Sun and UV</h3><p>Thin mountain air means strong UV even on cold days. Wear sunglasses and sunscreen on the slopes and trails all year.</p></div>
+      <div><h3>Sun and UV</h3><p>Thin mountain air means strong UV even on cold days. In the valley the UV index peaks at around 9 in June and July, and it&#8217;s stronger higher up: <a href="https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)" target="_blank" rel="noopener">according to the WHO</a>, UV rises by about 10% with every 1,000 m of altitude, and snow can reflect as much as 80% of it. Wear sunglasses and sunscreen on the slopes and trails all year.</p></div>
     </div>
   </div>
 </section>
@@ -538,16 +538,21 @@ body{-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-tou
   var sun=$('#sun'),read=$('#sun-read');
   if(sun){
     var names=['January','February','March','April','May','June','July','August','September','October','November','December'];
-    var hrs=[155,140,155,180,185,210,280,250,180,155,150,125];
+    var dry=[25,23,25,21,20,21,24,24,23,23,23,25];
     var perDay=[5,5,5,6,6,7,9,8,6,5,5,4];
+    var uv=[2,3,4,6,8,9,9,8,6,4,2,1];
     var tAvg=[4.4,4.5,7.6,10.3,13.3,17.6,20.7,20.8,16.9,13.1,7.6,5.1];
     var tMin=[0,-1,2,4,7,11,13,13,10,7,3,1], tMax=[9,9,13,16,19,24,28,28,24,19,12,10];
+    var lvl=function(u){return u<=2?'low':u<=5?'moderate':u<=7?'high':'very high'};
     var ty=function(t){return 100-(t/24*68)};
     var pts=tAvg.map(function(t,i){return ((i+0.5)/12*1200).toFixed(1)+','+ty(t).toFixed(1)}).join(' ');
-    sun.innerHTML=hrs.map(function(h,i){return '<button aria-pressed="false" aria-label="'+names[i]+': '+h+' hours of sunshine, average '+tAvg[i]+' degrees"><span class="val">'+h+' h</span><span class="col" style="height:'+(h/280*85)+'%"></span><span class="tdot" style="bottom:'+(tAvg[i]/24*68)+'%"><i>'+Math.round(tAvg[i])+'°</i></span></button>'}).join('')
+    sun.innerHTML=dry.map(function(d,i){return '<button aria-pressed="false" aria-label="'+names[i]+': about '+d+' dry days, '+perDay[i]+' hours of sunshine a day, UV index '+uv[i]+', average '+tAvg[i]+' degrees"><span class="val">'+d+'</span><span class="col" style="height:'+(d/31*85)+'%"></span><span class="tdot" style="bottom:'+(tAvg[i]/24*68)+'%"><i>'+Math.round(tAvg[i])+'°</i></span></button>'}).join('')
       +'<svg class="tline" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true"><polyline points="'+pts+'"/></svg>';
+    var lab=sun.parentNode.querySelector('.sun-labels');
+    if(lab&&!sun.parentNode.querySelector('.uv-row')){var ur=document.createElement('div');ur.className='uv-row';ur.setAttribute('aria-hidden','true');
+      ur.innerHTML=uv.map(function(u){return '<span class="uv uv-'+lvl(u).replace(' ','')+'">'+u+'</span>'}).join('');lab.parentNode.insertBefore(ur,lab.nextSibling)}
     var sb=sun.querySelectorAll('button');
-    var pick=function(i){sb.forEach(function(b,j){b.setAttribute('aria-pressed',i===j)});read.textContent=names[i]+': about '+hrs[i]+' hours of sunshine (roughly '+perDay[i]+' a day), and an average of '+tAvg[i]+'°C, from about '+tMin[i]+'°C at night to '+tMax[i]+'°C by day.'};
+    var pick=function(i){sb.forEach(function(b,j){b.setAttribute('aria-pressed',i===j)});read.textContent=names[i]+': about '+dry[i]+' dry days and '+perDay[i]+' hours of sunshine a day, with a UV index of '+uv[i]+' ('+lvl(uv[i])+'). It averages '+tAvg[i]+'°C, from about '+tMin[i]+'°C at night to '+tMax[i]+'°C by day.'};
     sb.forEach(function(b,i){b.addEventListener('click',function(){pick(i)})});
     pick(6);
   }
