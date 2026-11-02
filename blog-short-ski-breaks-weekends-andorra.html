@@ -857,6 +857,63 @@ footer p.logo{margin:0 0 1rem!important;padding-top:0!important}
 .mk2 .ghost.minor{fill:#fff;stroke:#5B2626;stroke-width:2.5}
 .mk2 .ghost.off{opacity:.16}
 @media (max-width:760px){.mk2-ititle{font-size:24px}}
+/* andorra maps */
+.amap{margin:2.2rem 0 0;max-width:none}
+.am-svg{display:block;width:100%;height:auto}
+.am-loc{background:#FBF6EE;border:1px solid #E6D9CB;border-radius:4px;overflow:hidden}
+.am-loc figcaption,.am-par figcaption{font:400 .9rem/1.45 var(--sans);color:var(--soft);margin:0;padding:.8rem 1.2rem;border-top:1px solid #E6D9CB}
+.am-sea{fill:#E4ECEC}
+.am-land{fill:#F4ECE0;stroke:#B9A796;stroke-width:1.2;stroke-linejoin:round}
+.am-land.fr{fill:#F7F1E8}
+.am-and{fill:#5B2626;stroke:#5B2626;stroke-width:2}
+.am-route{fill:none;stroke:#5B2626;stroke-width:2;stroke-dasharray:6 6;stroke-opacity:.7}
+.am-city{fill:#fff;stroke:#5B2626;stroke-width:2.5}
+.am-ct{font:400 22px var(--serif);fill:#5B2626;paint-order:stroke;stroke:#F7F1E8;stroke-width:6px;stroke-linejoin:round}
+.am-dist{font:500 16px var(--sans);fill:#5E5049;paint-order:stroke;stroke:#F7F1E8;stroke-width:5px}
+.am-here{fill:none;stroke:#5B2626;stroke-width:2;stroke-opacity:.45}
+.am-aname{font:400 28px var(--serif);fill:#5B2626;paint-order:stroke;stroke:#F7F1E8;stroke-width:7px;stroke-linejoin:round}
+.am-country{font:400 44px var(--serif);fill:#5B2626;fill-opacity:.8}
+.am-sea-t{font:italic 400 22px var(--serif);fill:#6F8486}
+.am-range{font:italic 400 22px var(--serif);fill:#8A7A6E}
+.am-par{display:grid;grid-template-columns:minmax(0,1fr) 300px;background:#FBF6EE;border:1px solid #E6D9CB;border-radius:4px}
+.am-par .am-map{min-width:0;border-right:1px solid #E6D9CB}
+.am-par figcaption{grid-column:1/-1}
+.am-out{fill:#FBF6EE}
+.am-edge path{fill:none;stroke:#5B2626;stroke-width:5;stroke-linejoin:round}
+.am-p{stroke:#FBF6EE;stroke-width:1.6;stroke-linejoin:round;cursor:pointer;transition:fill .2s}
+.p-canillo{fill:#EADFC8}.p-encamp{fill:#EFD9CF}.p-ordino{fill:#DDE6D5}.p-la-massana{fill:#DCE4EA}.p-andorra-la-vella{fill:#F1DDBD}.p-escaldes{fill:#E8DCE8}.p-sant-julia{fill:#E5E8CF}
+.am-p:hover{fill-opacity:.75}
+.am-p.on{fill:#E9B98F}
+.am-roads path{fill:none;stroke:#fff;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.am-roads{filter:drop-shadow(0 0 1px rgba(91,38,38,.45))}
+.am-ski path{fill:#fff;stroke:#5B2626;stroke-width:1.5;stroke-linejoin:round}
+.am-ski text,.am-place text,.am-peak text{font:italic 400 19px var(--serif);fill:#6E5E54;paint-order:stroke;stroke:#FBF6EE;stroke-width:5px;stroke-linejoin:round}
+.am-ski,.am-place,.am-peak,.am-cross{pointer-events:none}
+.am-peak path{fill:#5B2626}
+.am-place circle{fill:#fff;stroke:#5B2626;stroke-width:2}
+.am-seat{cursor:pointer}
+.am-seat circle{fill:#5B2626;stroke:#FBF6EE;stroke-width:2.5}
+.am-seat text{font:400 23px var(--serif);fill:#5B2626;paint-order:stroke;stroke:#FBF6EE;stroke-width:6px;stroke-linejoin:round}
+.am-cross path{stroke:#5B2626;stroke-width:2;marker-end:none}
+.am-cross text{font:500 15px var(--sans);fill:#5E5049}
+.am-panel{padding:1.5rem 1.3rem;display:flex;flex-direction:column;gap:1.1rem}
+.am-info h3{margin:0 0 .5rem!important;font:400 1.5rem/1.2 var(--serif)!important;color:#5B2626}
+.am-info p{margin:0 0 .6rem!important;font:400 .98rem/1.55 var(--sans)!important;color:#3a2a26}
+.am-info .am-pop b{font-weight:600;color:#5B2626}
+.am-links{display:flex;flex-wrap:wrap;gap:.4rem .9rem}
+.am-links a{color:#5B2626}
+.am-list{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.am-list button{font:500 .86rem/1.15 var(--sans);padding:.55rem .6rem;border-radius:999px;border:1px solid #CDB9A6;background:#fff;color:#5B2626;cursor:pointer;text-align:center}
+.am-list button[aria-pressed=true]{background:#5B2626;border-color:#5B2626;color:#F7F1E8}
+.am-list button:focus-visible{outline:2px solid #5B2626;outline-offset:2px}
+.am-par .am-key{list-style:none!important;margin:auto 0 0!important;padding:.9rem 0 0!important;border-top:1px solid #E6D9CB;display:grid;gap:.45rem}
+.am-par .am-key li{display:flex!important;align-items:center;gap:.6rem;margin:0!important;padding:0!important;font:400 .86rem/1.3 var(--sans)!important;color:var(--soft)!important}
+.am-par .am-key li:before,.am-par .am-key li:after{content:none!important;display:none!important}
+.am-key .k-road{display:block;width:22px;height:5px;border-radius:3px;background:#fff;box-shadow:0 0 0 1px rgba(91,38,38,.45)}
+.am-key .k-ski{display:block;width:16px;height:12px;background:#fff;border:1.5px solid #5B2626;clip-path:polygon(0 100%,40% 0,62% 55%,78% 35%,100% 100%)}
+@media (max-width:1000px){.am-par{grid-template-columns:1fr}.am-par .am-map{border-right:0;border-bottom:1px solid #E6D9CB}.am-list{grid-template-columns:1fr 1fr 1fr}}
+@media (max-width:760px){.amap{margin-left:calc(50% - 50vw);width:100vw}.am-loc,.am-par{border-left:0;border-right:0;border-radius:0}
+.am-list{grid-template-columns:1fr 1fr}.am-seat text{font-size:30px;stroke-width:8px}.am-ski text,.am-place text,.am-peak text{font-size:24px}.am-ct{font-size:32px}.am-dist{font-size:25px}.am-aname{font-size:38px}.am-sea-t,.am-range{font-size:27px}.am-country{font-size:54px}}
 .jrel{padding-block:clamp(2.6rem,5vw,4rem)}
 .jrel h2{margin:0 0 1.6rem}
 .jrel .jrel-more{margin:1.8rem 0 0!important;font:400 1.02rem/1.6 var(--sans)!important;color:var(--soft)}
