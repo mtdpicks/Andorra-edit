@@ -869,6 +869,18 @@ footer p.logo{margin:0 0 1rem!important;padding-top:0!important}
 .mk2 .ghost.off{opacity:.16}
 @media (max-width:760px){.mk2-ititle{font-size:24px}}
 /* andorra maps */
+.amap{position:relative}
+.am-pl{cursor:pointer}
+.am-pl .hit{fill:#000;fill-opacity:0}
+.am-pl:focus{outline:none}
+.am-pl:focus-visible .hit{fill-opacity:.08;stroke:#5B2626;stroke-width:2}
+.am-pl:hover .am-ct,.am-pl:hover .am-tt,.am-pl:hover text{text-decoration:underline}
+.am-par .am-pl .am-ski,.am-par .am-pl .am-place,.am-par .am-pl .am-peak{pointer-events:auto}
+.am-tip{position:absolute;z-index:5;width:max-content;max-width:270px;background:#fff;border:1px solid #E6D9CB;border-radius:6px;box-shadow:0 10px 26px rgba(91,38,38,.16);padding:.75rem .9rem;font:400 .9rem/1.45 var(--sans);color:#3a2a26}
+.am-tip[hidden]{display:none}
+.am-tip b{display:block;font:400 1.08rem/1.2 var(--serif);color:#5B2626;margin-bottom:.3rem}
+.am-tip span{display:block}
+.am-tip a{display:inline-block;margin-top:.45rem;color:#5B2626;font-weight:500}
 .amap{margin:2.2rem 0 0;max-width:none}
 .am-svg{display:block;width:100%;height:auto}
 .am-loc{background:#FBF6EE;border:1px solid #E6D9CB;border-radius:4px;overflow:hidden}
@@ -901,7 +913,7 @@ footer p.logo{margin:0 0 1rem!important;padding-top:0!important}
 .am-roads{filter:drop-shadow(0 0 1px rgba(91,38,38,.45))}
 .am-ski path{fill:#fff;stroke:#5B2626;stroke-width:1.5;stroke-linejoin:round}
 .am-ski text,.am-place text,.am-peak text{font:italic 400 19px var(--serif);fill:#6E5E54;paint-order:stroke;stroke:#FBF6EE;stroke-width:5px;stroke-linejoin:round}
-.am-ski,.am-place,.am-peak,.am-cross{pointer-events:none}
+.am-cross{pointer-events:none}
 .am-peak path{fill:#5B2626}
 .am-place circle{fill:#fff;stroke:#5B2626;stroke-width:2}
 .am-seat{cursor:pointer}
