@@ -596,6 +596,10 @@ w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget)&&!(e.r
 document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
 document.addEventListener('click',function(e){if(cur&&!h.contains(e.target))close()});
 window.addEventListener('hashchange',close)})();</script><style id="bespoke-css">
+/* drawer scroll */
+.drawer{max-height:calc(100vh - 70px);max-height:calc(100dvh - 70px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(1.5rem + env(safe-area-inset-bottom,0px))!important}
+body:has(.drawer.open){overflow:hidden}
+/* /drawer scroll */
 .mega:has(> .col){display:flex;gap:2.6rem;padding-right:1.6rem}
 .mega .col{display:block}
 .mega .mh{display:block;margin:0 0 .5rem;font:500 .85rem/1.2 var(--sans);color:#7D601B}
