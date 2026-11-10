@@ -1157,6 +1157,10 @@ html .mast nav>a[aria-current]{text-decoration-color:#C9A86A!important}
 html .mast .logo img,html .mast nav a.jr img{filter:brightness(0) invert(1)}
 html .mast nav a[href="blog.html"]:after,html .mast nav a[href="#/blog"]:after,html .mast nav a[href="blog.html"]:hover:after,html .mast nav a[href="#/blog"]:hover:after{color:#FBF7F0!important;text-decoration-color:rgba(251,247,240,.8)!important}
 html .menu-btn{color:#FBF7F0!important}
+/* menu labels and icons centred in the bar's height, top and scrolled (owner, 10 Nov 2026) */
+@media (min-width:761px){html .mast .wrap{align-items:center!important}html .mast nav,html.sx-scrolled .mast nav{padding-top:0!important;padding-bottom:0!important;align-items:center!important;align-self:center!important}
+html.sx-scrolled .mast nav a.jr img{height:30px!important}html.sx-scrolled .mast nav a.jr{gap:6px!important}
+html.sx-scrolled .mast nav a[href="things-to-do.html"]:after,html.sx-scrolled .mast nav a[href="#/things-to-do"]:after{height:35px!important;background-size:23px 35px!important;margin-top:-2px!important;margin-bottom:-3px!important}}
 html.sx-scrolled .mast{box-shadow:0 12px 30px -20px rgba(40,24,18,.45)}
 @media (min-width:761px){
 html.sx-scrolled .mast .wrap{height:92px}
