@@ -1181,10 +1181,10 @@ html.sx-scrolled .mast nav a.jr img{height:30px!important}html.sx-scrolled .mast
 html.sx-scrolled .mast nav a[href="things-to-do.html"]:after,html.sx-scrolled .mast nav a[href="#/things-to-do"]:after{height:35px!important;background-size:23px 35px!important;margin-top:-2px!important;margin-bottom:-3px!important}}
 /* film look (owner, 10 Nov 2026): "Fujifilm dreamy negative" over page header photos and the menu photos, not the home header. Airy, low contrast, soft pastel colour,
    lifted shadows and a gentle glow round the highlights (a blurred, brighter copy of the photo blended in at low opacity), plus fine grain. CSS only, so the files keep their original colours */
-.pagehead.photo img,.mega .mtile img{filter:brightness(1.06) contrast(.86) saturate(.84) sepia(.07)}
-.pagehead.photo picture::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:rgba(255,236,222,.07);-webkit-backdrop-filter:blur(4px) brightness(1.12) saturate(.92);backdrop-filter:blur(4px) brightness(1.12) saturate(.92);opacity:.26}
-@media (max-width:760px){.pagehead.photo picture::before{-webkit-backdrop-filter:blur(1.5px) brightness(1.1) saturate(.92);backdrop-filter:blur(1.5px) brightness(1.1) saturate(.92);opacity:.2}}
-.pagehead.photo picture::after{content:"";position:absolute;inset:0;z-index:1;opacity:.09;mix-blend-mode:overlay;pointer-events:none;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>")}
+.pagehead.photo img,.mega .mtile img,.drawer .dtile img{filter:brightness(1.03) contrast(.93) saturate(.84) sepia(.07)}
+.pagehead.photo picture::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:rgba(255,236,222,.04);-webkit-backdrop-filter:blur(3px) brightness(1.1) saturate(.92);backdrop-filter:blur(3px) brightness(1.1) saturate(.92);opacity:.15}
+@media (max-width:760px){.pagehead.photo picture::before{-webkit-backdrop-filter:blur(1.5px) brightness(1.1) saturate(.92);backdrop-filter:blur(1.5px) brightness(1.1) saturate(.92);opacity:.1}}
+.pagehead.photo picture::after{content:"";position:absolute;inset:0;z-index:1;opacity:.07;mix-blend-mode:overlay;pointer-events:none;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>")}
 html.sx-scrolled .mast{box-shadow:0 12px 30px -20px rgba(40,24,18,.45)}
 @media (min-width:761px){
 html.sx-scrolled .mast .wrap{height:92px}
