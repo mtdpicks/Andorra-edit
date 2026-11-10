@@ -652,8 +652,8 @@ body:has(.drawer.open){overflow:hidden}
 .mega .mtile:hover img{transform:scale(1.04)}
 .mega .mcap{display:block;white-space:normal;margin-top:.9rem;font:500 .74rem/1.35 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#5B2626}
 }
-@media (min-width:761px) and (max-width:1199px){.mega .mtiles{grid-template-columns:repeat(2,minmax(0,210px))}.mega .mtile:nth-child(3){display:none}.mega .mcols .col{min-width:9rem}}
-@media (min-width:761px) and (max-width:979px){.mega .mtiles{grid-template-columns:minmax(0,200px)}.mega .mtile:nth-child(2){display:none}}
+@media (min-width:761px) and (max-width:1199px){.mega:has(> .mcols){gap:2rem}.mega .mcols{gap:2rem}.mega .mtiles{grid-template-columns:repeat(3,minmax(0,190px));gap:1rem}.mega .mcols .col{min-width:8.5rem}}
+@media (min-width:761px) and (max-width:979px){.mega:has(> .mcols){grid-template-columns:1fr}.mega .mtiles{grid-template-columns:repeat(3,minmax(0,1fr));justify-content:stretch;max-width:600px}}
 /* /megamenu *//* phone menu: the drop-down menus, smaller */
 @media (max-width:760px){
 .drawer.open{display:block!important}
