@@ -423,7 +423,7 @@ section.hz::after{content:"";position:absolute;inset:0;z-index:1;background:rgba
 @media (max-width:760px){
  section.hz{margin-top:calc(71px + env(safe-area-inset-top,0px));height:auto;min-height:0;max-height:none;flex-direction:column}
  section.hz::after{display:none}
- .hz picture{position:relative;order:2;height:auto;aspect-ratio:4/5;width:auto;align-self:stretch;margin:0 16px 16px}
+ .hz picture{position:relative;order:2;height:auto;aspect-ratio:4/5;width:100%;box-sizing:border-box;border:16px solid #111111;border-top:0;margin:0}
  .hz-txt{order:1;margin:0;padding:2.4rem 1.25rem 2.2rem}
  .hz-title img{width:min(78vw,340px)}
  .hz-down{display:none}
@@ -461,7 +461,7 @@ section.wb+section{padding-top:clamp(1rem,2vw,2rem)!important}
 .hz-tag{font:500 clamp(.9rem,1vw,1rem)/1.6 var(--hz-sans)!important;letter-spacing:.04em}
 .wi h2{font:200 clamp(2.8rem,5.2vw,5.2rem)/1.05 var(--hz-serif)!important;font-variation-settings:'opsz' 144,'SOFT' 0,'WONK' 0;letter-spacing:-.025em;color:#111111}
 .wi .lede{font:400 clamp(1.02rem,1.28vw,1.28rem)/1.8 var(--hz-garamond)!important;color:#111111;max-width:46rem!important}
-@media (max-width:760px){.hz-title{font-size:clamp(3rem,15vw,4.6rem)!important}}
+@media (max-width:760px){.hz-title{font-size:clamp(2.3rem,11vw,3.4rem)!important}}
 
 /* logo set in Italiana (16 Nov 2026) */
 .mast .logo img.lg-it{height:23px!important;width:auto!important}
