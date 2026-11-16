@@ -12,3 +12,5 @@ Until the file is here, the logo shows the Hurricane script as a fallback.
 DM Serif Display (homepage hero title): SIL Open Font License 1.1, from @fontsource/dm-serif-display 5.0.8.
 Instrument Serif (homepage headings): SIL Open Font License 1.1, from @fontsource/instrument-serif 5.0.8.
 Montserrat (homepage text): SIL Open Font License 1.1, from @fontsource/montserrat 5.0.19.
+Fraunces (homepage headings): SIL Open Font License 1.1, from @fontsource-variable/fraunces 5.3.0.
+Italiana (logo artwork): SIL Open Font License 1.1, from @fontsource/italiana 5.3.0.
