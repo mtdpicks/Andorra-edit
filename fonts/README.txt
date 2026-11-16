@@ -8,3 +8,5 @@ Logo font: "Always in the Star" (BlackFridayFont, commercial licence).
 3. Upload the folder with the site. The logo switches to it automatically.
 
 Until the file is here, the logo shows the Hurricane script as a fallback.
+
+DM Serif Display (homepage hero title): SIL Open Font License 1.1, from @fontsource/dm-serif-display 5.0.8.
