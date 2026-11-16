@@ -14,3 +14,5 @@ Instrument Serif (homepage headings): SIL Open Font License 1.1, from @fontsourc
 Montserrat (homepage text): SIL Open Font License 1.1, from @fontsource/montserrat 5.0.19.
 Fraunces (homepage headings): SIL Open Font License 1.1, from @fontsource-variable/fraunces 5.3.0.
 Italiana (logo artwork): SIL Open Font License 1.1, from @fontsource/italiana 5.3.0.
+
+EB Garamond (fonts/eb-garamond-*): Copyright 2017 The EB Garamond Project Authors, SIL Open Font License 1.1, via Fontsource.
