@@ -1,0 +1,60 @@
+@font-face{font-family:'Marcellus';font-style:normal;font-display:swap;font-weight:400;src:url(fonts/marcellus-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Marcellus';font-style:normal;font-display:swap;font-weight:400;src:url(fonts/marcellus-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Albert Sans';font-style:normal;font-display:swap;font-weight:400;src:url(fonts/albert-sans-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Albert Sans';font-style:normal;font-display:swap;font-weight:400;src:url(fonts/albert-sans-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Albert Sans';font-style:normal;font-display:swap;font-weight:500;src:url(fonts/albert-sans-latin-ext-500-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Albert Sans';font-style:normal;font-display:swap;font-weight:500;src:url(fonts/albert-sans-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Albert Sans';font-style:normal;font-display:swap;font-weight:600;src:url(fonts/albert-sans-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Albert Sans';font-style:normal;font-display:swap;font-weight:600;src:url(fonts/albert-sans-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Albert Sans';font-style:italic;font-display:swap;font-weight:400;src:url(fonts/albert-sans-latin-ext-400-italic.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Albert Sans';font-style:italic;font-display:swap;font-weight:400;src:url(fonts/albert-sans-latin-400-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Hurricane';font-style:normal;font-display:swap;font-weight:400;src:url(fonts/hurricane-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Hurricane';font-style:normal;font-display:swap;font-weight:400;src:url(fonts/hurricane-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+/* homepage hero, full photo with centred title and scroll button (16 Nov 2026) */
+section.hz{position:relative;margin-top:125px;height:calc(100svh - 125px);min-height:560px;max-height:1100px;padding:0!important;overflow:hidden;background:#111111;color:#FFFFFF;display:flex;align-items:center;justify-content:center}
+.hz picture,.hz-img{position:absolute;inset:0;width:100%;height:100%}
+.hz-img{object-fit:cover}
+section.hz::after{content:"";position:absolute;inset:0;z-index:1;background:rgba(0,0,0,.4)}
+.hz-txt{position:relative;z-index:2;text-align:center;padding:0 1.25rem;margin-top:-5vh}
+.hz-title{margin:0!important;line-height:0}
+.hz-title img{display:inline-block;width:clamp(320px,40vw,700px);height:auto}
+.hz-script{margin:clamp(.9rem,1.6vw,1.4rem) 0 0!important;line-height:0}
+.hz-script img{display:inline-block;width:clamp(220px,21vw,360px);height:auto}
+.hz-tag{margin:clamp(1.4rem,2.6vw,2.2rem) auto 0!important;font:400 clamp(1rem,1.15vw,1.15rem)/1.5 var(--sans);color:#FFFFFF}
+.hz-down{position:absolute;z-index:2;left:50%;bottom:clamp(1.5rem,5vh,3rem);transform:translateX(-50%);width:58px;height:58px;padding:0;border:1px solid rgba(255,255,255,.9);border-radius:50%;background:transparent;display:grid;place-items:center;color:#FFFFFF;cursor:pointer;transition:background .3s,color .3s}
+.hz-down:hover,.hz-down:focus-visible{background:#FFFFFF;color:#111111}
+@media (max-width:760px){
+ section.hz{margin-top:calc(71px + env(safe-area-inset-top,0px));height:auto;min-height:0;max-height:none;flex-direction:column}
+ section.hz::after{display:none}
+ .hz picture{position:relative;order:2;height:auto;aspect-ratio:4/5;width:100%;box-sizing:border-box;border:16px solid #111111;border-top:0;margin:0}
+ .hz-txt{order:1;margin:0;padding:2.4rem 1.25rem 2.2rem}
+ .hz-title img{width:min(78vw,340px)}
+ .hz-down{display:none}
+}
+/* Winter in Andorra intro and boxes with labels (16 Nov 2026) */
+section.wi{padding:clamp(3.5rem,7vw,6rem) 0 clamp(2rem,4vw,3.5rem)!important;text-align:center;scroll-margin-top:125px}
+.wi h2{margin:0 0 clamp(1.2rem,2.4vw,2rem)!important}
+.wi .lede{max-width:44rem;margin:0 auto!important;text-wrap:balance}
+section.wb{padding:0 0 clamp(3rem,6vw,5rem)!important}
+.wb-grid{width:min(1240px,100% - 2.5rem);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(2.2rem,4vw,3rem) clamp(18px,2.2vw,32px)}
+.wb-box{display:flex;flex-direction:column;text-decoration:none;color:#111111;text-align:center}
+.wb-box picture{position:relative;display:block;aspect-ratio:3/2;overflow:hidden;background:#EDEDED}
+.wb-box img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.4s cubic-bezier(.2,.65,.3,1)}
+.wb-txt{flex:1;display:flex;flex-direction:column;align-items:center;padding:clamp(1.4rem,2.2vw,2rem) .3rem 0}
+.wb-h{display:block;font:400 clamp(1.2rem,1.45vw,1.45rem)/1.25 var(--hz-garamond);color:#111111}
+.wb-p{display:block;margin:.65rem auto 1.1rem;max-width:34ch;font:400 clamp(.9rem,.98vw,.98rem)/1.75 var(--hz-garamond);color:#2B2B2B;text-wrap:pretty}
+.wb-more{display:inline-block;margin-top:auto;padding-bottom:5px;font:500 .84rem/1 var(--hz-sans);letter-spacing:.04em;color:#111111;border-bottom:1px solid #111111;transition:opacity .3s}
+@media (hover:hover){.wb-box:hover img{transform:scale(1.04)}.wb-box:hover .wb-more{opacity:.55}}
+.wb-box:focus-visible .wb-more{opacity:.55}
+@media (max-width:600px){section.wi{scroll-margin-top:71px}section.wb .wb-grid{width:auto;grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:80%;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 16px;scroll-padding:0 16px;scrollbar-width:none}.wb-grid::-webkit-scrollbar{display:none}.wb-box{scroll-snap-align:start}}
+section.wb+section{padding-top:clamp(1rem,2vw,2rem)!important}
+@media (max-width:980px){.wb-grid{grid-template-columns:repeat(2,1fr)}}
+@media (prefers-reduced-motion:reduce){.wb-box img,.wb-more{transition:none}}
+/* homepage fonts matched to the owner's reference: Fraunces light headings, Montserrat text (16 Nov 2026) */
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:250;font-display:swap;src:url(fonts/fraunces-static-normal-250.woff2) format('woff2')}@font-face{font-family:'Fraunces';font-style:italic;font-weight:250;font-display:swap;src:url(fonts/fraunces-static-italic-250.woff2) format('woff2')}
+.hz,.wi,.wb{--hz-serif:'Fraunces',Georgia,serif;--hz-sans:var(--sans);--hz-garamond:'EB Garamond',Garamond,Georgia,serif}
+.hz-title{font:250 clamp(3.2rem,6vw,7rem)/.98 var(--hz-serif)!important;font-variation-settings:'opsz' 144,'SOFT' 0,'WONK' 0;letter-spacing:-.025em;color:#FFFFFF;text-wrap:balance}
+.hz-title em,.wi h2 em{font-style:italic}
+.hz-title span{display:block}
+.hz-tag{font:500 clamp(.9rem,1vw,1rem)/1.6 var(--hz-sans)!important;letter-spacing:.04em}
+.wi h2{font:250 clamp(2.8rem,5.2vw,5.2rem)/1.05 var(--hz-serif)!important;font-variation-settings:'opsz' 144,'SOFT' 0,'WONK' 0;letter-spacing:-.025em;color:#111111}
+.wi .lede{font:400 clamp(1.02rem,1.28vw,1.28rem)/1.8 var(--hz-garamond)!important;color:#111111;max-width:46rem!important}
+@media (max-width:760px){.hz-title{font-size:clamp(2.3rem,11vw,3.4rem)!important}}
+
+/* logo set in Italiana (16 Nov 2026) */
+.mast .logo img.lg-it{height:23px!important;width:auto!important}
+footer .logo img.lg-it{height:34px!important;width:auto!important}
+@media (min-width:980px) and (max-width:1199px){.mast .logo img.lg-it{height:20px!important}}
+@media (min-width:761px) and (max-width:979px){.mast .logo img.lg-it{height:14px!important}}
+@media (min-width:761px) and (max-width:859px){.mast .logo img.lg-it{height:12px!important}}
+@media (max-width:760px){.mast .logo img.lg-it{height:12px!important}footer .logo img.lg-it{height:24px!important}}
+
