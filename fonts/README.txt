@@ -18,3 +18,5 @@ Italiana (logo artwork): SIL Open Font License 1.1, from @fontsource/italiana 5.
 EB Garamond (fonts/eb-garamond-*): Copyright 2017 The EB Garamond Project Authors, SIL Open Font License 1.1, via Fontsource.
 
 Cormorant (used for the logo image the-andorra-edit-logo-cormorant*.webp): Copyright 2015 The Cormorant Project Authors, SIL Open Font License 1.1, via Fontsource.
+
+Fraunces static instances (fonts/fraunces-static-*.woff2): cut from the Fraunces variable font, SIL Open Font License 1.1, via Fontsource.
